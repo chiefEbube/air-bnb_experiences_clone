@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #f8f5f5;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+nav {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  background: #FFFFFF;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+/* ---- Hero Section ----------- */
+
+section{
+  padding: 20px;
+}
+
+.hero--section{
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo{
+  width: 50%;
+  min-width: 400px;
+  max-width: 800px;
+  align-self: center;
+}
+
+.hero-header{
+  margin: 16px 0;
+}
+
+.hero--text{
+  margin-top: 0;
+  max-width: 500px;
+}
+
+.card {
+  width: 180px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
